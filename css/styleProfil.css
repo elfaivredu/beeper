@@ -1,0 +1,87 @@
+head{
+background:#500000;
+
+}
+div.premiere-rubrique{
+
+margin-top:0;
+margin-left:0;
+
+
+
+
+}
+body{
+	background-color:#500000;	
+}
+h1{
+	color:#F0F0F0;
+
+
+}
+h2{
+	color:#F0F0F0;
+	
+}
+p{
+	color:#F0F0F0;
+	
+}
+div.deuxieme-rubrique{
+	
+}
+.logo{
+float:left;
+margin-top:10px;
+margin-right:10px;
+}
+footer{
+
+background:#800000;
+
+position:absolute;
+
+bottom:0;
+
+width:100%;
+
+padding-top:50px;
+
+height:50px;
+
+text-align:center;
+
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	grid-gap: 0px;
+	grid-auto-rows: minmax(auto, auto);
+	grid-auto-flow: column;
+	max-width: 100% !important;
+
+
+	
+}
+.grid2 {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	grid-gap: 200px;
+	grid-auto-rows: minmax(auto, auto);
+	grid-auto-flow: column;
+	max-width: 100% !important;
+
+
+	
+}
+
+.grid2 > div {
+	margin-left:50px;
+}
+.sunglass_sheep{
+	
+	margin-top:70px;
+	
+	
+}
